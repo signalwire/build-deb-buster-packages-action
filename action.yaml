@@ -1,11 +1,6 @@
 # action.yml
 name: 'Build Deb Buster Packages Action'
 description: 'Build Deb packages actions'
-inputs:
-  project_name: 
-    description: 'Default Project Name'
-    required: true
-    default: 'default'
 runs:
   using: 'docker'
   image: 'Dockerfile'
