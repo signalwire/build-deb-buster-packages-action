@@ -1,0 +1,6 @@
+# action.yml
+name: 'Build Deb Buster Packages Action'
+description: 'Build Deb packages actions'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
